@@ -53,7 +53,22 @@ header{
 	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
 }
+#portfolioTitle{
+	margin-left: -40px;
+}
+.porttext{
+	margin-left: -20px;
+}
 
+@media (max-width: 500px) {
+  #portfolioTitle{
+    margin-left: 0px;
+  }
+
+	.porttext{
+		margin-left: 0px;
+	}
+}
 
 /*Services*/
 .services{
@@ -109,7 +124,7 @@ padding-bottom: 30px;
 margin-top: 60px;
 }
 .single_count{
-padding-top: 20px;	
+padding-top: 20px;
 }
 .single_count i{
     color: #65CC5D;
@@ -120,14 +135,14 @@ font-family: 'Montserrat', sans-serif;
 color: #fff;
 font-size: 40px;
 font-weight: bold;
-margin-bottom: 0px;	
+margin-bottom: 0px;
 }
 .single_count p{
 font-family: 'Dosis', sans-serif;
 color: #fff;
 font-size: 14px;
 text-transform: uppercase;
-position: relative;	
+position: relative;
 }
 .single_count p:before{
 content: "";
@@ -166,7 +181,7 @@ top: 20px;
 right: 20px;
 color: #fff;
 text-decoration: none;
-text-transform: uppercase;	
+text-transform: uppercase;
 }
 .image_overlay h2{
 position: absolute;
@@ -175,7 +190,7 @@ left: 20px;
 font-size: 25px;
 color: #fff;
 text-transform: uppercase;
-letter-spacing: 3px;	
+letter-spacing: 3px;
 }
 .image_overlay h4{
 position: absolute;
@@ -183,7 +198,7 @@ bottom: 11px;
 left: 20px;
 color: #fff;
 font-size: 14px;
-text-transform: uppercase;	
+text-transform: uppercase;
 }
 .work_title{}
 .work_title h1, .contact_title h1{
@@ -240,7 +255,7 @@ text-transform: uppercase;
     border-color: #65CC5D;
 }
 .call_to_action .container{
-	
+
 	padding-bottom: 60px;
 	border-bottom: 1px solid #ddd;
 }
@@ -248,18 +263,18 @@ text-transform: uppercase;
 /*Contact*/
 
 .single_contact_info{
-padding-bottom: 21px;	
+padding-bottom: 21px;
 }
 .single_contact_info h2{
 text-transform: uppercase;
 color: #3d3d3d;
 font-size: 18px;
 letter-spacing: 3px;
-margin-bottom: 1px;	
+margin-bottom: 1px;
 }
 .single_contact_info p{
 font-size: 15px;
-color: #3d3d3d;	
+color: #3d3d3d;
 }
 
 .contact-form{
@@ -282,7 +297,7 @@ border-radius: 0px;
 color: #fff;
 padding-top: 13px;
 padding-bottom: 10px;
-transition: all 1s;	
+transition: all 1s;
 }
 
 

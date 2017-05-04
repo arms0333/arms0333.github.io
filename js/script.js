@@ -15,6 +15,16 @@
       });
     });
 
+// let the picture be clicked at mobile view
+
+// document.getElementsByClassName('img-responsive').onclick = function() {githubTransititon()};
+//
+//
+// function githubTransititon() {
+//
+//       window.location.href = 'http://stackoverflow.com/questions/1655065/redirecting-to-a-relative-url-in-javascript';
+//
+// };
 
     //OWL CAROSEL TESTIMONIAL
     $('.owl-carousel').owlCarousel({
@@ -60,5 +70,6 @@
       $('#status').fadeOut(); // will first fade out the loading animation
       $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
       $('body').delay(350).css({'overflow':'visible'});
+
     })
     //]]>
