@@ -24,8 +24,6 @@
     died('We are sorry, but there appears to be a problem with the form you submitted.');      
     }
 
-
-
     $name = $_POST['name']; // required
     $email_from = $_POST['email']; // required
     $subject = $_POST['subject']; // not required
