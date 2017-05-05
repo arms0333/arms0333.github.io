@@ -290,7 +290,11 @@
                                 </div>
                                 <div class="col-md-6">
                                     <textarea class="form-control" name="comments" id="comments" rows="25" cols="10" placeholder="  Message Texts..."></textarea>
-                                    <button type="button" class="btn btn-default submit-btn form_submit"><a href="javascript: submitform()">Submit</a></button>
+                                    <!-- <button type="button" class="btn btn-default submit-btn form_submit"><a href="javascript: submitform()">Submit</a></button> -->
+
+                                    <form action="javascript: submitform()">
+                                      <input type="submit" class="btn btn-default submit-btn form_submit" value="Go to Google" />
+                                    </form>
 
                                 </div>
                             </div>
