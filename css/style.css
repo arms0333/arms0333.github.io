@@ -12,12 +12,12 @@
 			font-family: 'Dosis', sans-serif;
 		}
 
+#footerHealth{
+	padding-bottom: 50px;
+}
+
 #headerRecent{
 		margin-top: 35px;
-		border-bottom: 1px solid #ddd;
-}
-#headerRecent > p{
-	margin-bottom: 70px;
 }
 
 #githubImage{
@@ -76,12 +76,11 @@ margin-left: 50px;
 			text-transform: uppercase;
 		}
 		#portfolioTitle{
-			margin-left: -40px;
 			margin-top: 50px;
 			margin-bottom: 50px;
 		}
 		.porttext{
-			margin-left: -20px;
+			margin-left: 30px;
 			margin-bottom: 50px;
 		}
 
@@ -173,7 +172,8 @@ margin-left: 50px;
 		}
 
 		.single_image img{
-			width: 70%;
+			width: 80%;
+			height: 80%;
 		    padding-left: 100px;
 		    margin-top: 60px;
 		    margin-bottom: 40px;
