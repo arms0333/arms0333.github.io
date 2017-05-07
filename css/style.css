@@ -12,6 +12,26 @@
 			font-family: 'Dosis', sans-serif;
 		}
 
+#headerRecent{
+		margin-top: 35px;
+		border-bottom: 1px solid #ddd;
+}
+#headerRecent > p{
+	margin-bottom: 70px;
+}
+
+#githubImage{
+	width:42px;
+	height:42px;
+	border:0;
+	float: left;
+}
+#githubPtag{
+position: relative;
+padding-top: 10px;
+margin-left: 50px;
+}
+
 		/*Header*/
 		.navbar-default .navbar-nav>li>a {
 		color: #777;
@@ -57,9 +77,12 @@
 		}
 		#portfolioTitle{
 			margin-left: -40px;
+			margin-top: 50px;
+			margin-bottom: 50px;
 		}
 		.porttext{
 			margin-left: -20px;
+			margin-bottom: 50px;
 		}
 
 
@@ -152,8 +175,8 @@
 		.single_image img{
 			width: 70%;
 		    padding-left: 100px;
-		    margin-top: 20px;
-		    margin-bottom: 20px;
+		    margin-top: 60px;
+		    margin-bottom: 40px;
 		}
 		.single_image:hover div.image_overlay{
 			opacity: 1;
@@ -201,9 +224,9 @@
 			font-size: 25px;
 			color: #3d3d3d;
 			letter-spacing: 5px;
-			padding-top: 80px;
+			padding-top: 20px;
 			text-transform: uppercase;
-			margin-bottom: 20px;
+
 		}
 		.work_title img, .contact_title img{
 			margin-bottom: 30px;
@@ -211,7 +234,7 @@
 		.work_title p, .contact_title p{
 			font-size: 14px;
 			color: #000;
-			margin-bottom: 100px;
+			margin-bottom: 20px;
 		}
 		.last_padding {
 			padding-right: 0px;
@@ -252,9 +275,17 @@
 		}
 		.call_to_action .container{
 
-			padding-bottom: 60px;
 			border-bottom: 1px solid #ddd;
 		}
+		.work_area  .container{
+
+			border-top: 1px solid #ddd;
+		}
+
+.row{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
 
 		/*Contact*/
 
