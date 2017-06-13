@@ -75,14 +75,7 @@ margin-left: 50px;
 			font-family: 'Montserrat', sans-serif;
 			text-transform: uppercase;
 		}
-		#portfolioTitle{
-			margin-top: 50px;
-			margin-bottom: 50px;
-		}
-		.porttext{
-			margin-left: 30px;
-			margin-bottom: 50px;
-		}
+		
 
 
 		/*Services*/
@@ -174,7 +167,7 @@ margin-left: 50px;
 		.single_image img{
 			width: 80%;
 			height: 80%;
-		    padding-left: 100px;
+		    padding-left: 75px;
 		    margin-top: 60px;
 		    margin-bottom: 40px;
 		}
