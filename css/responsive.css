@@ -24,6 +24,10 @@
         .porttext{
           margin-left: 0px;
         }
+          
+          .single_image img{
+              padding-left: 50px;
+          }
 }
 
     @media only screen
