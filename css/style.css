@@ -36,6 +36,10 @@ padding-top: 10px;
 margin-left: 50px;
 }
 
+.bruce-left{
+    margin-left: 220px;
+}
+
 		/*Header*/
 		.navbar-default .navbar-nav>li>a {
 		color: #777;

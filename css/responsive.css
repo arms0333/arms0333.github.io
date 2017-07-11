@@ -28,6 +28,12 @@
           .single_image img{
               padding-left: 50px;
           }
+          
+
+          .bruce-left{
+              margin-left: 0px;
+          }
+
 }
 
     @media only screen
