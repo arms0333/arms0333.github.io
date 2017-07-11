@@ -10,6 +10,10 @@
         .porttext{
           margin-left: 0px;
         }
+          
+          #self-pic{
+              margin-left: 70px;
+          }
     }
 
     @media only screen
@@ -32,6 +36,10 @@
 
           .bruce-left{
               margin-left: 0px;
+          }
+          
+          #self-pic{
+              margin-left: 70px;
           }
 
 }
