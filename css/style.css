@@ -40,6 +40,10 @@ margin-left: 50px;
     margin-left: 220px;
 }
 
+.sarcova-fitting{
+    margin-left: 80px;
+}
+
 		/*Header*/
 		.navbar-default .navbar-nav>li>a {
 		color: #777;
@@ -131,7 +135,7 @@ margin-left: 50px;
 
 		/*Fun Facts*/
 		.fun_facts{
-			background: url(../images/background.svg);
+			background: url(../images/background-2.gif);
 			background-position: center;
 			background-size: cover;
 		}
